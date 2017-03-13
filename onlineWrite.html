@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模拟键盘</title>
+	<style type="text/css">
+		#txt_Search2{
+			width:350px;
+			font-size:30px;
+			margin-left:30%;
+		}
+	</style>
+</head>
+<body>
+          
+    <input type="text" class="underline span-style phoneNum" value=""  id="txt_Search2" onfocus='test2();' onblur="VirtualKeyboard.toggle('txt_Search2','softkey');"/><br/>
+	<div id="softkey"></div>   
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js" ></script>
+    <script type="text/javascript" src="js/vk_loader.js" ></script>
+    <script>
+        function test2(){
+            VirtualKeyboard.toggle('txt_Search2', 'softkey');
+            $("#kb_langselector,#kb_mappingselector,#copyrights").css("display", "none");
+            $("#virtualKeyboard").css({"margin-top":"184px","margin-left":"165px"});
+        
+        }
+    </script>
+</body>
+</html>

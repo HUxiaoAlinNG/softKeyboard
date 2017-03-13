@@ -1,0 +1,166 @@
+.postcodeWarm,.phoneNumWarm,.emailWarm{
+    display: none;
+    position: absolute;
+    width: 124px;
+    white-space: pre-wrap;
+    color: red;
+    font-size: 17px; 
+    margin-left: 1150px;
+}
+.postcodeWarm{
+    margin-top: 276px;
+}
+.phoneNumWarm{
+    margin-top: 332px;
+}
+.emailWarm{
+    margin-top: 388px;
+}
+.tipbox .box div .span-style{
+    display:inline-block;
+    font-size:26px;
+    color: #036646;
+    line-height: 56px;
+}
+.tipbox .box div .first{
+  margin-top: 8px;
+}
+/*左侧信息区域*/
+.tipbox .box .info-area-left{
+    float: left;
+    width:445px;
+    height:550px;
+    margin-left: 34px;
+    border-right: 1px solid #b5bac0;
+}
+
+/*右侧信息区域*/
+.tipbox .box .info-area-right{
+    width:546px;
+    height:530px;
+    margin-top:36px;
+    margin-left:500px;
+}
+.tipbox .box .info-area-right .underline{
+    background-color: rgba(255,255,255,0);
+    border-style: none;        
+    border-bottom:1px solid #afb9c2;
+    box-shadow: 0 1px 0 #d7e0e9;
+    line-height: 40px;
+    font-family: 华文中宋, sans-serif;
+}
+.tipbox .box .info-area-right .email{
+  width: 265px;
+}
+.tipbox .box .info-area-right .address{
+  vertical-align: top;
+}
+.tipbox .box .info-area-right .inputtext{
+  line-height: 42px;
+  margin-top: 8px;
+}
+.tipbox .box .info-area-right .addunder1{
+  position: absolute;
+  width: 280px;
+  margin-left: -280px;
+  margin-top: 50px;
+  border-bottom: 1px solid #afb9c2;
+}
+.tipbox .box .info-area-right .addunder2{
+  position: absolute;
+  width: 280px;
+  margin-left: -280px;
+  margin-top: 92px;
+  border-bottom: 1px solid #afb9c2;
+}
+.tipbox .box .info-area-right .mark_req{
+    color:#F00;
+    margin-right: 5px;
+    position:relative;
+    top:0;
+    font-size:22px;
+    height:40px;
+    line-height:40px\9;
+}
+.tipbox .box .info-area-right .addmark{
+  top: -90px;
+}
+.tipbox .box .info-area-right .lastmark{
+    margin-left: 5px;
+    line-height: 22px;
+}
+.tipbox .box .info-area-right .label_radio{
+    display: inline-block;
+    text-indent: 30px;
+    width:100px;
+    height: 50px;
+    padding: 0;
+    margin-left:16px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    background:url(../../../images/kuang.png) no-repeat 0px 4px;
+    background-size: 40px 40px; 
+    color: #036646;           
+}
+.tipbox .box .info-area-right .label_radio > input{
+    position: relative;
+    left: -99999px;
+}
+.tipbox .box .info-area-right .on{
+    background:url(../../../images/kuang2.png) no-repeat 0px -5px;
+    background-size: 40px 48px;
+}
+.tipbox .box .info-area-right .ck{
+    width: 160px;
+}
+.tipbox .box .info-area-right .lt{
+    margin-left: -26px;
+}
+.tipbox .box .info-area-right #rad1{
+    margin-left: 0px;
+}
+.tipbox .box .info-area-right #rad2{
+    margin-left: 10px;
+}
+.tipbox .box .info-area-right .tip-two{
+    margin-left: 300px;
+    line-height: 70px;   
+    color: #036646;
+    font-size: 16px;     
+}
+.box-tips{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+/*遮罩层*/
+.mask{
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    text-align: center;                     
+    background-color: #dce3e8;
+    left: 440px;
+    top: 362px;
+    box-shadow: 2px 2px 3px #888;
+    border-radius: 8px;
+
+
+}
+.mask img{
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+.mask .p-tis{       
+  font-size: 30px;
+  color: red; 
+  text-align: center;
+  margin-top: 120px;
+
+}
