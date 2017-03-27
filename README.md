@@ -1,38 +1,39 @@
-htmlÎÄ¼ş           :ÒıÓÃjquery-1.8.2.min.js/vk_loader.js
+#åœ¨çº¿ç½‘ç«™ï¼šhttps://huxiaoalinng.github.io/softKeyboard/
+htmlæ–‡ä»¶ Â  Â  Â  Â  Â  :å¼•ç”¨jquery-1.8.2.min.js/vk_loader.js
 
-vk_loader.js       :ÒıÓÃe.js/scriptqueue.js/virtualkeyboard.js/layouts.js
+vk_loader.js       :å¼•ç”¨e.js/scriptqueue.js/virtualkeyboard.js/layouts.js
 
-e.js               :¶¨Òå¸÷ÖÖº¯Êı
+e.js               :å®šä¹‰å„ç§å‡½æ•°
 
-scriptqueue.js     :±éÀúscriptº¯Êı
+scriptqueue.js     :éå†scriptå‡½æ•°
 
-virtualkeyboard.js :Ö÷º¯Êı£¬Èô¸ü¸ÄjsÎÄ¼şÖÁÆäËûÎÄ¼ş£¬Ğè¸ü¸Ä154ĞĞ´úÂë return l + "/js/" + io
+virtualkeyboard.js :ä¸»å‡½æ•°ï¼Œè‹¥æ›´æ”¹jsæ–‡ä»¶è‡³å…¶ä»–æ–‡ä»¶ï¼Œéœ€æ›´æ”¹154è¡Œä»£ç  return l + "/js/" + io
 
-layouts.js         :ÒıÓÃCN.js/chinese-pynsimpl.js/us.js
+layouts.js         :å¼•ç”¨CN.js/chinese-pynsimpl.js/us.js
 
-us.js              :Ó¢ÎÄÄ£Ê½ÏÂÏà¹Ø°´¼ü£¨³ı¹¦ÄÜ¼ü£©µÄ×Ö·û
+us.js              :è‹±æ–‡æ¨¡å¼ä¸‹ç›¸å…³æŒ‰é”®ï¼ˆé™¤åŠŸèƒ½é”®ï¼‰çš„å­—ç¬¦
 
-CN.js/chinese-pynsimpl.js:ÖĞÎÄÄ£Ê½ÏÂÏà¹Ø°´¼ü£¨³ı¹¦ÄÜ¼ü£©µÄ×Ö·ûÒÔ¼°ºº×Ö¿â
-
-
+CN.js/chinese-pynsimpl.js:ä¸­æ–‡æ¨¡å¼ä¸‹ç›¸å…³æŒ‰é”®ï¼ˆé™¤åŠŸèƒ½é”®ï¼‰çš„å­—ç¬¦ä»¥åŠæ±‰å­—åº“
 
 
-ÒıÓÃ¼üÅÌ²½Öè£º
 
-   1£©ÔÚhtmlÎÄ¼şÖ»ĞèÒªÒıÓÃvk_loader.jsºÍjquery-1.8.2.min.js.
-   Èç£º<script type="text/javascript" src="js/DataCheck2.js"></script>
+
+å¼•ç”¨é”®ç›˜æ­¥éª¤ï¼š
+
+   1ï¼‰åœ¨htmlæ–‡ä»¶åªéœ€è¦å¼•ç”¨vk_loader.jså’Œjquery-1.8.2.min.js.
+   å¦‚ï¼š<script type="text/javascript" src="js/DataCheck2.js"></script>
 	 <script type="text/javascript" src="js/vk_loader.js" ></script>
 
-   2£©htmlÒ³Ãæ¼ÓÈë¡°<div id="softkey"></div>¡± £¨¼üÅÌÏÔÊ¾Ä£¿é£©
+   2ï¼‰htmlé¡µé¢åŠ å…¥â€œ<div id="softkey"></div>â€ ï¼ˆé”®ç›˜æ˜¾ç¤ºæ¨¡å—ï¼‰
 
-   3£©input±êÇ©£¨»òÆäËû±êÇ©£©ÏÂ¼ÓID£¬¼ÓonfocusºÍonblurÊÂ¼ş¡£
-   Èç£º<input type="text" id="keyboardID" onfocus='test();' onblur="VirtualKeyboard.toggle('keyboardID','softkey');" />
+   3ï¼‰inputæ ‡ç­¾ï¼ˆæˆ–å…¶ä»–æ ‡ç­¾ï¼‰ä¸‹åŠ IDï¼ŒåŠ onfocuså’Œonbluräº‹ä»¶ã€‚
+   å¦‚ï¼š<input type="text" id="keyboardID" onfocus='test();' onblur="VirtualKeyboard.toggle('keyboardID','softkey');" />
 
-   4£©¶¨Òåtestº¯Êı
-   Èç£ºfunction test(){
+   4ï¼‰å®šä¹‰testå‡½æ•°
+   å¦‚ï¼šfunction test(){
             VirtualKeyb	oard.toggle('keyboardID', 'softkey');
             $("#kb_langselector,#kb_mappingselector,#copyrights").css("display", "none");
-            $("#virtualKeyboard").css({"margin-top":"409px","margin-left":"365px"});    //¼üÅÌÎ»ÖÃ
-	    $("#VirtualKeyboardIME").css("margin-top":"5px","margin-left":"-500px");    //ÏÔÊ¾×ÖÌå¿òÎ»ÖÃ
+            $("#virtualKeyboard").css({"margin-top":"409px","margin-left":"365px"});    //é”®ç›˜ä½ç½®
+	    $("#VirtualKeyboardIME").css("margin-top":"5px","margin-left":"-500px");    //æ˜¾ç¤ºå­—ä½“æ¡†ä½ç½®
         }
 
