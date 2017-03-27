@@ -1,5 +1,7 @@
 #在线网站：https://huxiaoalinng.github.io/softKeyboard/
-#html文件           :引用jquery-1.8.2.min.js/vk_loader.js
+
+
+html文件           :引用jquery-1.8.2.min.js/vk_loader.js
 
 vk_loader.js       :引用e.js/scriptqueue.js/virtualkeyboard.js/layouts.js
 
